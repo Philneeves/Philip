@@ -121,6 +121,20 @@ body {
   }
 }
 
+.container {
+  width: 100%;
+  /*margin-left: auto;
+  margin-right: auto; */
+}
+
+.supporting {
+  margin-bottom: -150px;
+}
+
+.img-thumbnail {
+  margin-bottom: 2.5px;
+}
+
 
 /*
  * Cover
@@ -172,11 +186,13 @@ body {
   }
 }
 
+
+
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 80%;
   }
 }
 
