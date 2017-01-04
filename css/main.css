@@ -125,6 +125,9 @@ body {
   }
 }
 
+/*Portfolio display
+*/
+
 .container {
   width: 100%;
   /*margin-left: auto;
@@ -136,9 +139,17 @@ body {
 }
 
 .img-thumbnail {
+  display: none;
+  /*position: relative;
+  height: 300px;*/
   margin-bottom: 2.5px;
 }
 
+#appear {
+  margin-bottom: 10px;
+}
+
+.popover, .popover h3.title, .popover .content { font-size: 14px; color: black}
 
 /*
  * Cover
