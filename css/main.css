@@ -140,8 +140,9 @@ body {
 
 .img-thumbnail {
   display: none;
-  /*position: relative;
-  height: 300px;*/
+  /*position: relative;*/
+  height: 344px;
+  width: 314px;
   margin-bottom: 2.5px;
 }
 
