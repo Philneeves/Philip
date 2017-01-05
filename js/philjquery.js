@@ -1,17 +1,18 @@
-$(document).ready(function(){
+$(window).on("load", function(){
     $("#appear").click(function(){
     	$(".cover").fadeOut(1000, function(){
 
-        	$("#imgtn1").fadeIn(2000, function(){
+            $(".headerApp").fadeIn(6000);
+        	$("#imgtn1").fadeIn(1000, function(){
 
         
-		        $("#imgtn2").fadeIn(2000, function(){
+		        $("#imgtn2").fadeIn(1000, function(){
 
 
-		        	$("#imgtn3").fadeIn(2000, function(){
+		        	$("#imgtn3").fadeIn(1000, function(){
 
 
-		        		$("#imgtn4").fadeIn(2000, function(){
+		        		$("#imgtn4").fadeIn(1000, function(){
 
 		        		});
 		        	});
