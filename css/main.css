@@ -10,6 +10,17 @@ html, body {
  * Globals
  */
 
+ /*
+ * Base structure
+ */
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  background-image: url(https://images.unsplash.com/photo-1438618849391-f906e5dd634f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8e912444ec45c8c0f4cf69b439c4afd7);
+}
+
 /* Links */
 a,
 a:focus {
@@ -36,16 +47,8 @@ a:hover {
 }
 
 
-/*
- * Base structure
- */
 
-body {
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background-image: url(https://images.unsplash.com/photo-1438618849391-f906e5dd634f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8e912444ec45c8c0f4cf69b439c4afd7);
-}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -82,13 +85,14 @@ body {
  * Header
  */
 .masthead-brand {
+  float: left;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 10em;
+  font-size: 5em;
 }
 
 
-.masthead-nav > li {
+/*.masthead-nav > li {
   display: inline-block;
 }
 .masthead-nav > li + li {
@@ -99,7 +103,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #fff; /* IE8 proofing
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -114,22 +118,14 @@ body {
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
-}
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
+}*/
 
 /*Portfolio display
 */
 
 .headerApp {
   display: none;
+  margin: 5px;
 }
 
 .container {
@@ -144,28 +140,42 @@ body {
 
 .img-thumbnail {
   display: none;
+  height: 2px;
+  width: 2px;
   /*position: relative;*/
-  height: 344px;
+  /*height: 344px;
   width: 314px;
+  margin-bottom: 2.5px;*/
+}
+
+.img-thumbnail2 {
+  height: 100%;
+  width: 100%;
   margin-bottom: 2.5px;
+  transition: height 2s, width 2s;
 }
 
 #appear {
   margin-bottom: 10px;
 }
 
-.popover, .popover h3.title, .popover .content { font-size: 14px; color: black}
+.popover, 
+.popover h3.title, 
+.popover .content { 
+  font-size: 14px; 
+  color: black
+}
 
 /*
  * Cover
  */
 
-.cover {
+/*.cover {
   padding: 0 20px;
-  
 }
+*/
 .cover .btn-lg {
-  padding: 10px 20px;
+/*  padding: 10px 20px;*/
   font-weight: bold;
 }
 
@@ -187,6 +197,8 @@ body {
  * Affix and center
  */
 
+ /* This is from medium size up to full laptop width (min-width 992px) between 768px and 992px-------*/
+
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
@@ -197,6 +209,19 @@ body {
     position: fixed;
     bottom: 0;
   }
+
+  .masthead-brand {
+    float: left;
+    font-size: 7em;
+  }
+  .masthead-nav {
+    float: right;
+  }
+
+  .footer {
+    height: 7.5%;
+  }
+
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
@@ -207,23 +232,14 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+
 }
-
-
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 80%;
-  }
-}
-
+/*--------------------------------------------------------------------------------------------------------*/
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
+/* Special class on .container surrounding .navbar, used for positioning it into place.
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -232,7 +248,7 @@ body {
   z-index: 20;
 }
 
-/* Flip around the padding for proper display in narrow viewports */
+/* Flip around the padding for proper display in narrow viewports
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
@@ -293,14 +309,14 @@ body {
 
 
 /* Featurettes
-------------------------- */
+------------------------- 
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
   
 }
 
-/* Thin out the marketing headings */
+/* Thin out the marketing headings*/
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -313,10 +329,10 @@ body {
 
 
 /* RESPONSIVE CSS
--------------------------------------------------- */
+--------------------------------------------------
 
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
+  /* Navbar positioning foo
   .navbar-wrapper {
     margin-top: 20px;
   }
@@ -329,12 +345,12 @@ body {
     padding-left: 0;
   }
 
-  /* The navbar becomes detached from the top, so we round the corners */
+  /* The navbar becomes detached from the top, so we round the corners
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
-  /* Bump up size of carousel content */
+  /* Bump up size of carousel content
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
@@ -351,13 +367,14 @@ body {
     margin-top: 120px;
   }
 }
+*/
 
 .footer {
   display: none;
   background: #000000;
   color: #0393ff;
   width: 100%;
-  height: 7.5%;
+  height: 11%;
   opacity: 0.2%;
   bottom: 0;
   position: fixed;
@@ -377,18 +394,28 @@ body {
   margin-bottom: 1em;
 }
 
-@media (max-width: 992px) {
-/*  .col-md-4 {
+
+/*------------THIS IS THE SCREEN AT FULL LAPTOP WIDTH:----------------------- */
+
+@media (min-width: 992px) {
+ /* .col-md-4 {
     margin: 0 auto 0;
     text-align: center;
     width: 100%;
-  }*/
+  }
   .cards img {
     width: 60%;
-  }
+  }*/
   .footer {
-    height: 20%;
+    height: 7.5%;
+  }
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 80%;
+  }
+  .masthead-brand {
+    font-size: 10em;
   }
 }
-
-
+/*---------------------------------------------------------------------------- */

@@ -1,27 +1,23 @@
 $(window).on("load", function(){
+
+
+
     $("#appear").click(function(){
-    	$(".cover").fadeOut(1000, function(){
 
-            $(".headerApp").fadeIn(6000);
-            $(".footer").fadeIn(6000);
-        	$("#imgtn1").fadeIn(1000, function(){
+    	$(".cover").slideUp(2000, function(){
 
+
+        $(".headerApp").fadeIn(6000);
+        $(".footer").fadeIn(6000);
+
+            $(".img-thumbnail").show(function(){
+            $(".img-thumbnail").addClass("img-thumbnail2")
         
-		        $("#imgtn2").fadeIn(1000, function(){
-
-
-		        	$("#imgtn3").fadeIn(1000, function(){
-
-
-		        		$("#imgtn4").fadeIn(1000, function(){
-
-		        		});
-		        	});
-		        });
-    		});
-        });
+		          });
+		  });
     });
 });
+
 
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();   
