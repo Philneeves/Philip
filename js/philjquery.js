@@ -5,16 +5,17 @@ $(window).on("load", function(){
     $("#appear").click(function(){
 
     	$(".cover").slideUp(1000, function(){
-        $(".mastfoot").fadeOut(2000, function(){
+        $(".mastfoot").fadeOut(1000, function(){
 
 
-        $(".headerApp").fadeIn(6000);
-        $(".footer").fadeIn(6000);
+        $(".headerApp").fadeIn(2000);
+        $(".footer").fadeIn(2000);
 
-            $(".img-thumbnail").show(function(){
-            $(".img-thumbnail").addClass("img-thumbnail2")
         
-		          });
+        $(".img-thumbnail").show(function(){
+            $(".img-thumbnail").addClass("img-thumbnail2")
+                        
+		            });
                 });
 		  });
     });

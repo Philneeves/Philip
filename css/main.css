@@ -1,8 +1,18 @@
+html {
+background: rgb(7,5,5); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(7,5,5,1) 0%, rgba(76,9,0,1) 15%, rgba(76,9,0,1) 15%, rgba(61,11,0,1) 27%, rgba(173,25,20,1) 53%, rgba(173,25,20,1) 75%, rgba(10,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(7,5,5,1) 0%,rgba(76,9,0,1) 15%,rgba(76,9,0,1) 15%,rgba(61,11,0,1) 27%,rgba(173,25,20,1) 53%,rgba(173,25,20,1) 75%,rgba(10,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(7,5,5,1) 0%,rgba(76,9,0,1) 15%,rgba(76,9,0,1) 15%,rgba(61,11,0,1) 27%,rgba(173,25,20,1) 53%,rgba(173,25,20,1) 75%,rgba(10,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#070505', endColorstr='#0a0000',GradientType=0 ); /* IE6-9 */
+
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #333;
+  
   font-family: 'Indie Flower', cursive;
 }
 
@@ -18,7 +28,11 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background-image: url("../img/sunSea.jpeg");
+  background: url("../img/sunSea.jpeg") center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Links */
@@ -156,7 +170,7 @@ a:hover {
 .img-thumbnail2 {
   height: 100%;
   width: 100%;
-  margin-bottom: 3em;
+  margin-bottom: 5px;
   transition: height 2s, width 2s;
   text-align: center;
 }
