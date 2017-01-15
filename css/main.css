@@ -154,7 +154,7 @@ a:hover {
 .img-thumbnail2 {
   height: 100%;
   width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 3em;
   transition: height 2s, width 2s;
   text-align: center;
 }
