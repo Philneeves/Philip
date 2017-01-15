@@ -4,7 +4,7 @@ $(window).on("load", function(){
 
     $("#appear").click(function(){
 
-    	$(".cover").slideUp(2000);
+    	$(".cover").slideUp(1000, function(){
         $(".mastfoot").fadeOut(2000, function(){
 
 
@@ -15,6 +15,7 @@ $(window).on("load", function(){
             $(".img-thumbnail").addClass("img-thumbnail2")
         
 		          });
+                });
 		  });
     });
 });
