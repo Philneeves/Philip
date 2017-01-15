@@ -4,7 +4,8 @@ $(window).on("load", function(){
 
     $("#appear").click(function(){
 
-    	$(".cover").slideUp(2000, function(){
+    	$(".cover").slideUp(2000);
+        $(".mastfoot").fadeOut(2000, function(){
 
 
         $(".headerApp").fadeIn(6000);

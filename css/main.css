@@ -18,7 +18,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background-image: url("C:Users/Philip/OneDrive/philip/Philneeves.github.io/img/sunSea.jpeg");
+  background-image: url("../img/sunSea.jpeg");
 }
 
 /* Links */
@@ -189,6 +189,7 @@ a:hover {
  */
 
 .mastfoot {
+  display: none;
   /*color: #999; /* IE8 proofing */
   /*color: rgba(255,255,255,.5);*/
   position: fixed;
@@ -238,6 +239,10 @@ a:hover {
     top: 0;
   }
   .mastfoot {
+    display: block;
+
+  bottom: 0;
+  width: 100%;
     position: fixed;
     bottom: 0;
   }
