@@ -106,7 +106,7 @@ h1.cover-heading {
   float: left;
   margin-top: 2px;
   margin-bottom: 2px;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 
@@ -143,7 +143,7 @@ h1.cover-heading {
 
 .headerApp {
   display: none;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .container {
