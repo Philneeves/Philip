@@ -173,6 +173,59 @@ h1.cover-heading {
   margin-bottom: 5px;
   transition: height 2s, width 2s;
   text-align: center;
+  opacity: 1;
+}
+
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+    display: none;
+    padding: 15px;
+    border: none;
+    border-radius: 0;
+    opacity: 0.8;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+.thumbnail:hover, .thumbnail:focus {
+    border: 1px solid #333;
+    background-color: #222;
+    cursor: pointer;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    color: #000;
+    opacity: 1;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    color: #000;
+}
+
+/* Add a dark gray background color to the modal header and center text */
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
 }
 
 #imgtn4 {

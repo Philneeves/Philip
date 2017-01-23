@@ -10,6 +10,7 @@ $(window).on("load", function(){
 
         $(".headerApp").fadeIn(2000);
         $(".footer").fadeIn(2000);
+        $(".thumbnail").fadeIn(2000);
 
         
         $(".img-thumbnail").show(function(){
