@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Secular+One|Tillana" rel="stylesheet">
+        <script src="https://use.fontawesome.com/4df6ac30c0.js"></script>
     </head>
 <body>
 
@@ -48,7 +49,7 @@
 
               <!-- <a target="_blank" href="https://philneeves.github.io/angular-todo2/#/" title="Angular Todo2" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This is a Todo Task List Web App created using the AngularJS framework and user authentication using JWT. Features include Registration form, Log In, Log Out and editable To Do List using Herokuapp"> --> 
 
-                <img src="img/ang2.png" class="img-thumbnail" id="imgtn1" alt="Angular Todo App">
+                <img src="img/ang3.png" class="img-thumbnail" id="imgtn1" alt="Angular Todo App">
 
               <!-- </a> -->
 
@@ -58,43 +59,43 @@
           </div>
 
           <div class="col-sm-3" >
-            <div class="thumbnail">
+            <div class="thumbnail" data-toggle="modal" data-target="#myModal2">
 
-              <a target="_blank" href="https://philneeves.github.io/rpsgame/" title="Rock, Paper, Scissors" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This is the classic Rock, Paper, Scissors game played against the computer using random generation code, JavaScript popups and JQuery">
+             <!--  <a target="_blank" href="https://philneeves.github.io/rpsgame/" title="Rock, Paper, Scissors" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This is the classic Rock, Paper, Scissors game played against the computer using random generation code, JavaScript popups and JQuery"> -->
 
-                <img src="img/rpsCover.png" class="img-thumbnail" id="imgtn2" alt="Rock, Paper, Scissors game">
+                <img src="img/rps_new2.png" class="img-thumbnail" id="imgtn2" alt="Rock, Paper, Scissors game">
 
-              </a>
+              <!-- </a>
 
-              <button class="btn" data-toggle="modal" data-target="#myModal2">View More</button>
+              <button class="btn" data-toggle="modal" data-target="#myModal2">View More</button> -->
 
             </div>
           </div>
 
           <div class="col-sm-3" >
-            <div class="thumbnail">
+            <div class="thumbnail" data-toggle="modal" data-target="#myModal3">
 
-              <a target="_blank" href="https://philneeves.github.io/band-app/#/" title="Band App" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Semi-fictional website created for Singer Songwriter Liz Seaver using the AngularJS framework.  Features include Audio, Video, Registration form, Tour dates with modal popovers, searchable Discography using Angular filter as well as a scrolling Carousel of pictures using Bootstrap. ">
+              <!-- <a target="_blank" href="https://philneeves.github.io/band-app/#/" title="Band App" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Semi-fictional website created for Singer Songwriter Liz Seaver using the AngularJS framework.  Features include Audio, Video, Registration form, Tour dates with modal popovers, searchable Discography using Angular filter as well as a scrolling Carousel of pictures using Bootstrap. "> -->
                 
-                <img src="img/bandapp.png" class="img-thumbnail" id="imgtn3" alt="Band App">
+                <img src="img/album_banner1_1.jpg" class="img-thumbnail" id="imgtn3" alt="Band App">
 
-              </a>
+             <!--  </a>
 
-              <button class="btn" data-toggle="modal" data-target="#myModal3">View More</button>
+              <button class="btn" data-toggle="modal" data-target="#myModal3">View More</button> -->
 
             </div>
           </div>
 
           <div class="col-sm-3" >
-            <div class="thumbnail">
+            <div class="thumbnail" data-toggle="modal" data-target="#myModal4">
 
-              <a target="_blank" href="philip.html" title="Philip" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="A light-hearted website all about me: Philip.  Features include mobile responsive pages using Bootstrap with links to a clickable map of where I have been in the world, my timeline and general info about Philip">
+             <!--  <a target="_blank" href="philip.html" title="Philip" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="A light-hearted website all about me: Philip.  Features include mobile responsive pages using Bootstrap with links to a clickable map of where I have been in the world, my timeline and general info about Philip"> -->
 
-                <img src="img/philipme.jpg" class="img-thumbnail" id="imgtn4" alt="Philip the Person">
+                <img src="img/me_icon2.png" class="img-thumbnail" id="imgtn4" alt="Philip the Person">
 
-              </a>
+             <!--  </a>
 
-              <button class="btn" data-toggle="modal" data-target="#myModal4">View More</button>
+              <button class="btn" data-toggle="modal" data-target="#myModal4">View More</button> -->
 
             </div>
           </div>
@@ -155,23 +156,19 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4><span class="glyphicon glyphicon-lock"></span> To Do List</h4>
+        <h4><span class="glyphicon glyphicon-list-alt"></span> Angular To Do List</h4>
       </div>
 
       <div class="modal-body">
-        <form role="form">
-          <div class="form-group">
-            <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €23 per person</label>
-            <input type="number" class="form-control" id="psw" placeholder="How many?">
-          </div>
-          <div class="form-group">
-            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-          </div>
-          <button type="submit" class="btn btn-block">Pay 
+        <div>
+          <h3>This is a Todo Task List Web App created using the AngularJS framework and user authentication using JWT. Features include Registration form, Log In, Log Out and editable To Do List using Herokuapp</h3>
+        </div>
+          <a href="https://philneeves.github.io/angular-todo2/#/"><button type="submit" class="btn btn-block">Use the Web App for Free 
             <span class="glyphicon glyphicon-ok"></span>
+          </button></a>
+          <button type="submit" class="btn btn-block">View the code on Github 
+            <span><i class="fa fa-github" aria-hidden="true"></i></span>
           </button>
-        </form>
       </div>
 
       <div class="modal-footer">
@@ -191,23 +188,19 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4><span class="glyphicon glyphicon-lock"></span> Rock, Paper, Scissors</h4>
+        <h4><span><i class="fa fa-hand-paper-o" aria-hidden="true"></i></span> Rock, Paper, Scissors</h4>
       </div>
 
       <div class="modal-body">
-        <form role="form">
-          <div class="form-group">
-            <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €23 per person</label>
-            <input type="number" class="form-control" id="psw" placeholder="How many?">
-          </div>
-          <div class="form-group">
-            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-          </div>
-          <button type="submit" class="btn btn-block">Pay 
+        <div>
+          <h3>This is the classic Rock, Paper, Scissors game played against the computer with usrr interactivity generated through JavaScript random number generation code, popups and JQuery animation transitions</h3>
+        </div>
+          <button type="submit" class="btn btn-block">Use the Web App for Free 
             <span class="glyphicon glyphicon-ok"></span>
           </button>
-        </form>
+          <button type="submit" class="btn btn-block">View the code on Github 
+            <span><i class="fa fa-github" aria-hidden="true"></i></span>
+          </button>
       </div>
       
       <div class="modal-footer">

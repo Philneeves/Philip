@@ -173,7 +173,7 @@ h1.cover-heading {
   margin-bottom: 5px;
   transition: height 2s, width 2s;
   text-align: center;
-  opacity: 1;
+  /*opacity: 1;*/
 }
 
 /* Remove border and add padding to thumbnails */
@@ -183,6 +183,8 @@ h1.cover-heading {
     border: none;
     border-radius: 0;
     opacity: 0.8;
+   /* -webkit-filter: hue-rotate(130deg);  Safari 6.0 - 9.0 
+    filter: hue-rotate(130deg);*/
 }
 
 .thumbnail p {
@@ -197,6 +199,7 @@ h1.cover-heading {
     text-shadow: none; /* Prevent inheritence from `body` */
     color: #000;
     opacity: 1;
+    filter: drop-shadow(10px 10px 20px red);
 }
 
 /* Black buttons with extra padding and without rounded borders */
@@ -218,18 +221,18 @@ h1.cover-heading {
 
 /* Add a dark gray background color to the modal header and center text */
 .modal-header, h4, .close {
-    background-color: #333;
+    background-color: #FA9F0C;
     color: #fff !important;
     text-align: center;
     font-size: 30px;
 }
 
-.modal-header, .modal-body {
-    padding: 40px 50px;
+.modal-body {
+  background-color: #A62616;
 }
 
-#imgtn4 {
-  margin-bottom: 70px;
+.modal-header, .modal-body {
+    padding: 40px 50px;
 }
 
 #appear {
