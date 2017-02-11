@@ -22,30 +22,30 @@ $(window).on("load", function(){
     });
 });
 
-$("#imgtn1").hover(function() {
-$( '#imgtn1' ).attr("src","img/ang2.png");
-}, 
-function() {
-});
+// $("#imgtn1").hover(function() {
+// $( '#imgtn1' ).attr("src","img/ang2.png");
+// }, 
+// function() {
+// });
 
-$("#imgtn2").hover(function() {
-$( '#imgtn2' ).attr("src","img/rps_new.png");
-}, 
-function() {
-});
+// $("#imgtn2").hover(function() {
+// $( '#imgtn2' ).attr("src","img/rps_new.png");
+// }, 
+// function() {
+// });
 
-// $(document).ready(function(){
-$("#imgtn3").hover(function() {
-$( '#imgtn3' ).attr("src","img/album_banner1.jpg");
-}, 
-function() {
-});
+// // $(document).ready(function(){
+// $("#imgtn3").hover(function() {
+// $( '#imgtn3' ).attr("src","img/album_banner1.jpg");
+// }, 
+// function() {
+// });
 
-$("#imgtn4").hover(function() {
-$( '#imgtn4' ).attr("src","img/me_icon.jpeg");
-}, 
-function() {
-});
+// $("#imgtn4").hover(function() {
+// $( '#imgtn4' ).attr("src","img/me_icon.jpeg");
+// }, 
+// function() {
+// });
 
 
 $(document).ready(function(){
