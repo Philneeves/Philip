@@ -141,6 +141,10 @@ h1.cover-heading {
 /*Portfolio display
 */
 
+/*.masthead {
+  margin-bottom: 400px;
+}*/
+
 .headerApp {
   display: none;
   font-size: 2.5em;
@@ -153,7 +157,6 @@ h1.cover-heading {
 }
 
 .supporting {
-  /*margin-top: 400px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -344,7 +347,7 @@ h1.cover-heading {
     float: right;
   }*/
 
-  /*.headerApp {
+ /* .headerApp {
     position: relative;
     float: right;
    /* margin-bottom: 100px;
@@ -375,7 +378,7 @@ h1.cover-heading {
 
   .supporting {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 200px;
   }
 
   .footer {
