@@ -166,8 +166,8 @@ h1.cover-heading {
 
 .img-thumbnail {
   display: none;
-  height: 2px;
-  width: 2px;
+  height: 10px;
+  width: 10px;
   /*position: relative;*/
   /*height: 344px;
   width: 314px;
@@ -375,8 +375,8 @@ h1.cover-heading {
   }
 
   .thumbnail {
-    height: 75%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
   }
 
   .supporting {
