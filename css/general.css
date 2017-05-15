@@ -1,0 +1,756 @@
+html {
+    position: relative;
+    min-height: 100%;
+	background-color: #000;
+
+}
+
+body {
+    min-height: 100%;
+    margin-bottom: 80px;
+	overflow-x:hidden;
+    font-family: 'Indie Flower', cursive;
+}
+
+.navbar-default {
+    background-color: #F0BA2C;
+}
+
+.main {
+	padding: 20px;
+	margin-top: 50px;
+    background-color: #000;
+}
+
+.img_scroll {
+    padding-top: 2em;
+}
+
+.contact_style {
+	padding: 20px;
+	margin: 20px;
+}
+
+.box-ct	{
+	text-align: center;
+}
+
+.descp {
+	margin: 0;
+	padding: 0;
+	line-height: 40px !important;
+	list-style-type: none;
+}
+
+.glyphicon {
+	margin-right: 10px;
+}
+
+.lead2 {
+margin-bottom: 30px;
+margin-top: 20px;
+font-size: 18px;
+line-height: 1.46428571;
+font-weight: 300;
+}
+
+.lead3 {
+margin-bottom: 0px;
+margin-top: 0px;
+font-size: 16px;
+color: #8D8D8D;
+line-height: 1.46428571;
+font-weight: 300;
+}
+
+.h1_home    {
+    /*main page header styling*/
+	font-size: 100px;
+	font-weight: 300;
+	letter-spacing: 6px;
+}
+
+.h3_home    {
+    font-weight: bold;
+}
+
+/***
+emphasise main registration link
+***/
+.register_home>a:link {
+    color: #C0E8ED;
+    background-color: transparent;
+    text-decoration: none;
+}
+.register_home>a:visited {
+    color: #C0E8ED;
+    background-color: transparent;
+    text-decoration: none;
+}
+.register_home>a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.register_home>a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.product-table {
+    /*in place of jumbotron bootstrap style to allow larger bottom margin*/
+    padding: 30px;
+    margin-bottom: 100px;
+    color: inherit;
+    background-color: #eee;
+}
+
+/*customise carousel */
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#owl-demo-1 .item{
+  margin: 3px;
+}
+#owl-demo-1 .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../img/status.gif); /* path to loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.owl-theme .owl-controls .owl-page span {
+background: #1abc9c !important;
+}
+
+.lead {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.intro-header {
+	height: 100%;
+	padding-top: 10em;
+	padding-bottom: 16em;
+	background-color: #000;
+	color: #F0BA2C;
+	text-align: center;
+}
+
+.contact_page {
+	height: 100%;
+	padding-top: 20px;
+	background: url(../img/CityScape.gif) no-repeat center center;
+	background-size: cover;
+	text-align: left;
+}
+
+.reg_page {
+	height: 100%;
+    width: 30%;
+    padding-left: 6em;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+div.return {
+    /*PayPal return page*/
+	height: 300px;
+	width: 300px;
+	background: url(../img/myst_lady.gif) no-repeat center center;
+	background-size: cover;
+}
+
+.content-section-a {
+	background-color: #F0BA2C;
+	padding: 10em 0 10em 0;
+    margin-bottom: 1em;
+}
+
+.content-section-b {
+	/*border-top: 1px solid #e7e7e7;*/
+	/*border-bottom: 1px solid #e7e7e7;*/
+	padding: 10em 0 10em 0;
+	margin-bottom: 1em;
+    color: #F0BA2C;
+}
+
+.content-section-c {
+	border-top: 1px solid #32465A;
+	border-bottom: 1px solid #32465A;
+	background-color: #34495e;
+	color: #FFF;
+    margin-bottom: 70px;
+    padding: 10em 0 10em 0;
+}
+
+.success_page {
+	background:url(../img/bubbles.gif)no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    padding: 20px;
+	text-align: left;
+	color: #020069;
+}
+
+.section-heading {
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+/* Animate */
+.rotate {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+}
+ 
+.rotate:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}  
+
+/***
+Style for form modal
+***/
+.content-style-form {
+	position: relative;
+	text-align: left;
+}
+
+.content-style-form h2 {
+	margin: 0;
+	padding: 0.4em 0 0.3em;
+	text-align: center;
+	font-weight: 300;
+	font-size: 3.5em;
+}
+
+.content-style-form form {
+	padding: 10px 30px;
+}
+
+.content-style-form form p {
+	margin: 0 0 5px 0;
+	font-size: 0.7em;
+}
+
+.content-style-form label {
+	display: block;
+	padding: 10px 0 0;
+	color: #34495e;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.content-style-form input[type="text"],
+.content-style-form input[type="password"] {
+	padding: 10px;
+	width: 100%;
+	border: 2px solid #ebd3bd;
+	background: transparent;
+	color: #b09a86;
+	font-weight: 300;
+	font-size: 0.7em;
+}
+
+.content-style-form input[type="text"]:focus,
+.content-style-form input[type="password"]:focus {
+	border-color: #e75854;
+	color: #e75854;
+}
+
+.content-style-form input:focus {
+	outline: 0;
+}
+
+.content-style-form button {
+	display: block;
+	margin-top: 2.5em;
+	padding: 1.5em;
+	width: 100%;
+	border: none;
+	background: #e75854;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 800;
+	font-size: 1.25em;
+}
+
+.content-style-form .icon-close {
+	top: 0;
+	right: 0;
+	color: #ebd3bd;
+	font-size: 75%;
+}
+
+.content-style-form .icon-close:hover {
+	color: #e75854;
+}
+
+.content-style-form-4 form {
+	padding: 30px;
+	background: #fff;
+	color: #ccb096;
+	font-size: 1.5em;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.content-style-form-4 input[type="text"] {
+	border: none;
+	background-color: #f0f0f0;
+}
+
+.content-style-form-4 form button {
+	background: #34495e;
+}
+
+.content-style-form-4 form button:focus,
+.content-style-form-4 form button:hover {
+	background: #1abc9c;
+}
+
+.js .content-style-form-4 p {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: rotateX(-45deg);
+	transform: rotateX(-45deg);
+	-webkit-transform-origin: center top;
+	transform-origin: center top;
+}
+
+.morph-button.open .content-style-form-4 p {
+	opacity: 1;
+	-webkit-transition: opacity 0.4s 0.2s, -webkit-transform 0.4s 0.2s;
+	transition: opacity 0.4s 0.2s, transform 0.4s 0.2s;
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+.morph-button.open .content-style-form-4 p:nth-child(2) {
+	-webkit-transition-delay: 0.35s;
+	transition-delay: 0.35s;
+}
+
+.morph-button {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.morph-button > button {
+	position: relative;
+	padding: 0 1em;
+	border: none;
+	background-color: #e85657;
+	color: #f9f6e5;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	line-height: 80px;
+	overflow: hidden;
+}
+
+.morph-button.open > button {
+	pointer-events: none;
+}
+
+.morph-content {
+	pointer-events: none;
+}
+
+.morph-button.open .morph-content {
+	pointer-events: auto;
+}
+
+.morph-button-fixed,
+.morph-button-fixed .morph-content {
+	width: 300px;
+	height: 80px;
+}
+
+.morph-button-fixed > button {
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: opacity 0.1s 0.5s;
+	transition: opacity 0.1s 0.5s;
+}
+
+.morph-button-fixed.open > button {
+	opacity: 0;
+	-webkit-transition: opacity 0.1s;
+	transition: opacity 0.1s;
+}
+
+.morph-button-fixed .morph-content {
+	position: fixed;
+	z-index: 900;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+.morph-button-fixed.open .morph-content {
+	opacity: 1;
+}
+
+.morph-button-fixed .morph-content > div {
+	visibility: hidden;
+	height: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+	transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+}
+
+.morph-button-fixed.open .morph-content > div {
+	visibility: visible;
+	height: auto;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s 0.5s;
+	transition: opacity 0.3s 0.5s;
+}
+
+.morph-button-fixed.active > button {
+	z-index: 2000;
+}
+
+.morph-button-fixed.active .morph-content {
+	z-index: 1900;
+}
+
+/* Transitions for overlay button and sidebar button */
+.morph-button-overlay .morph-content,
+.morph-button-sidebar .morph-content {
+	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+}
+
+.morph-button-overlay.open .morph-content,
+.morph-button-sidebar.open .morph-content {
+	-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+	transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;	
+}
+
+/* Morph Button Style: Overlay */
+.morph-button.morph-button-overlay {
+	margin: 50px auto;
+}
+
+.morph-button-overlay .morph-content {
+	overflow: hidden;
+	background: #e85657;
+}
+
+.morph-button-overlay.open .morph-content {
+	top: 0 !important;
+	left: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+/* Morph Button Style: Modal */
+.morph-button-modal::before {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	pointer-events: none;
+}
+
+.morph-button-modal.open::before {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.morph-button-modal.active::before {
+	z-index: 1800;
+}
+
+.morph-button-modal .morph-content {
+	overflow: hidden;
+	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+.morph-button-modal.open .morph-content {
+	top: 50% !important;
+	left: 50% !important;
+	margin: -210px 0 0 -300px;
+	width: 600px;
+	height: 420px;
+	-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+/* Morph Button Style: In the content flow */
+.morph-button-inflow {
+	overflow: hidden;
+	max-width: 100%;
+	height: 70px;
+}
+
+.morph-button-inflow > button {
+	width: 100%;
+	line-height: 70px;
+}
+
+.morph-button-inflow .morph-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.morph-button-inflow .morph-content .morph-clone {
+	padding: 0;
+	font-weight: 700;
+	font-size: 1.5em;
+	line-height: 70px;
+}
+
+/* Colors and sizes for individual in flow buttons */
+.morph-button-inflow-1 {
+	width: 600px;
+	margin: 2em auto;
+	-webkit-transition: height 0.5s cubic-bezier(0.7,0,0.3,1);
+	transition: height 0.5s cubic-bezier(0.7,0,0.3,1);
+}
+
+.morph-button-inflow-1 > button span {
+	visibility: hidden;
+}
+
+.morph-button-inflow-1 .morph-content .morph-clone {
+	color: #FFFFFF;
+	background: #1abc9c;
+}
+
+/* Let's add some nice easing for all cases */
+.morph-button .morph-content,
+.morph-button.open .morph-content,
+.morph-button-modal-4 .morph-clone {
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+/* Helper classes */
+.noscroll {
+	overflow: hidden;
+}
+
+.morph-button-overlay.scroll .morph-content {
+	overflow-y: scroll;
+}
+
+/* No JS fallback: hide the button and show the content */
+.no-js .morph-button > button {
+	display: none;
+}
+
+.no-js .morph-button {
+	margin: 10px 0;
+	float: none;
+}
+
+.no-js .morph-button,
+.no-js .morph-button .morph-content,
+.no-js .morph-button .morph-content > div {
+	position: relative;
+	width: auto;
+	height: auto;
+	opacity: 1;
+	visibility: visible;
+	top: auto;
+	left: auto;
+	-webkit-transform: none;
+	transform: none;
+	pointer-events: auto;
+}
+
+.no-js .morph-button .morph-content .icon-close {
+	display: none;
+}
+
+.no-transition {
+	-webkit-transition: none !important;
+	transition: none !important;
+}
+
+/***
+footer social media links
+***/
+.social {
+	font-size: 30px;
+	text-decoration: none;
+	list-style-type: none;
+	color: #1abc9c;
+}
+
+.social > a:hover {
+	color: #1abc9c;
+}
+
+div.footer {
+	margin-left: -20px;
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    .intro-header {
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .content-section-a {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .content-section-b {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .content-section-c {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    h1, .h1 {
+        font-size: 2em;
+    }
+
+    .h1_home {
+        font-size: 2.8em;
+    }
+
+    h3, .h3 {
+        font-size: 20px;
+    }
+
+    .success_page {
+        background:url(../img/bubbles.gif) center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        text-align: left;
+        padding: 20px;
+        color: #020069;
+    }
+
+    .reg_page {
+        width: 100%;
+        padding: 1em;
+    }
+
+
+    /***
+    Allow Investment Centre tables to be mobile responsive without side scrollbar
+    ***/
+    .hp-table table, .hp-table thead, .hp-table .hp-table tbody, .hp-table th, .hp-table td, .hp-table tr {
+		display: block;
+	}
+	.hp-table thead tr {
+		display: none;
+	}
+	.hp-table tr {
+        border: 1px solid #020069;
+        margin-bottom: 10px; }
+
+	.hp-table td:before {
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+
+    .hp-table td:nth-of-type(1) {
+		font-weight: bold;
+	}
+
+	.hp-table td:nth-of-type(2):before {
+		content: "Description:";
+		font-weight: bold;
+	}
+	.hp-table td:nth-of-type(3):before {
+		content: "Price:";
+		font-weight: bold;
+	}
+		
+}
+
+div.footer {
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #f5f5f5;
+}
