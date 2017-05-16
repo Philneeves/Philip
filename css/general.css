@@ -156,8 +156,11 @@ background: #1abc9c !important;
 	height: 100%;
 	padding-top: 14em;
 	padding-bottom: 16em;
-	margin-bottom: 50px;
-	/*background-color: #283E4A;*/
+	background: url(../img/deep_space.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 	color: #F0BA2C;
 	text-align: center;
 }
