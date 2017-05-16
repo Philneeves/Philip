@@ -1,8 +1,7 @@
 html {
     position: relative;
     min-height: 100%;
-	background-color: #000;
-
+	
 }
 
 body {
@@ -10,16 +9,11 @@ body {
     margin-bottom: 80px;
 	overflow-x:hidden;
     font-family: 'Indie Flower', cursive;
+    background-color: #283E4A;
 }
 
 .navbar-default {
     background-color: #F0BA2C;
-}
-
-.main {
-	padding: 20px;
-	margin-top: 50px;
-    background-color: #000;
 }
 
 .img_scroll {
@@ -160,9 +154,10 @@ background: #1abc9c !important;
 
 .intro-header {
 	height: 100%;
-	padding-top: 10em;
+	padding-top: 14em;
 	padding-bottom: 16em;
-	background-color: #000;
+	margin-bottom: 50px;
+	/*background-color: #283E4A;*/
 	color: #F0BA2C;
 	text-align: center;
 }
@@ -214,7 +209,7 @@ div.return {
 	border-bottom: 1px solid #32465A;
 	background-color: #34495e;
 	color: #FFF;
-    margin-bottom: 70px;
+    /*margin-bottom: 70px;*/
     padding: 10em 0 10em 0;
 }
 
@@ -653,10 +648,6 @@ footer social media links
 	color: #1abc9c;
 }
 
-div.footer {
-	margin-left: -20px;
-}
-
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
 
@@ -675,6 +666,10 @@ div.footer {
     .content-section-b {
         padding-top: 1em;
         padding-bottom: 1em;
+    }
+
+    .img-mob {
+    	margin-bottom: 2em;
     }
 
     .content-section-c {
