@@ -19,7 +19,7 @@ $(document).ready(function() {
 		//Wow Animation DISABLE FOR ANIMATION MOBILE/TABLET
 		wow = new WOW(
 		{
-			mobile: false
+			mobile: true
 		});
 		wow.init();
 		
