@@ -18,6 +18,8 @@ body {
 
 .img_scroll {
     padding-top: 2em;
+    height: 100px;
+    width: 80px;
 }
 
 .contact_style {
